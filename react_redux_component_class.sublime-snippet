@@ -1,0 +1,36 @@
+<snippet>
+		<content><![CDATA[
+import React, { Component } from 'react';
+import { connect } from 'react-redux';
+
+export class ${1:${TM_FILENAME/(.+)\..+|.*/$1/:ComponentName}} extends Component {
+	render() {
+		// const { action } = this.props;
+		return ${2:(
+			${3:<div>${0}</div>}
+		);}
+	}
+};
+
+function mapStateToProps (state) {
+  return {
+		// prop: state.prop
+  }
+};
+
+function mapDispatchToProps (dispatch, ownProps) {
+	return {
+		// action: () => { dispatch(actionAction())}
+	}
+};
+
+export default connect(
+  mapStateToProps,
+  mapDispatchToProps
+)(${1:${TM_FILENAME/(.+)\..+|.*/$1/:ComponentName}});
+
+]]></content>
+		<tabTrigger>rrc</tabTrigger>
+		<scope>source.js -(meta)</scope>
+		<description>React: redux connected class component</description>
+</snippet>
