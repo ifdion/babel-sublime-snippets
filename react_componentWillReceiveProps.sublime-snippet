@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-componentWillReceiveProps(nextProps) {
+${1:UNSAFE_}componentWillReceiveProps(nextProps) {
 	${0}
 },
 ]]></content>

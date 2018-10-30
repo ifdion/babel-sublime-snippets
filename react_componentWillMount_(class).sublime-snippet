@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-componentWillMount() {
+${1:UNSAFE_}componentWillMount() {
 	${0}
 }
 ]]></content>

@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-componentWillUpdate(nextProps, nextState) {
+${1:UNSAFE_}componentWillUpdate(nextProps, nextState) {
 	${0}
 }
 ]]></content>
