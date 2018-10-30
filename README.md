@@ -32,7 +32,7 @@ To set a key binding, go to "Preferences: Key Bindings - User" from the Command 
 | `rcc→`   | legacy component skeleton |
 | `rfc→`   | function component skeleton |
 | `cdm→`   | `componentDidMount() {…}` |
-| `cdup→`  | `componentDidUpdate(prevProps, prevState) {…}` |
+| `cdup→`  | `componentDidUpdate(prevProps, prevState, snapshot) {…}` |
 | `cwm→`   | `UNSAFE_componentWillMount() {…}` |
 | `cwr→`   | `UNSAFE_componentWillReceiveProps(nextProps) {…}` |
 | `cwun→`  | `componentWillUnmount() {…}` |
