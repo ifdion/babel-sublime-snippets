@@ -40,6 +40,8 @@ To set a key binding, go to "Preferences: Key Bindings - User" from the Command 
 | `fdn→`   | `React.findDOMNode(…)` |
 | `gdp→`   | `getDefaultProps() {…}` |
 | `gis→`   | `getInitialState() {…}` |
+| `gds→`   | `getDerivedStateFromProps(props, state) {…}` |
+| `gsbu`   | `getSnapshotBeforeUpdate(prevProps, prevState) {…}` |
 | `ren→`   | `render() {…}` |
 | `sst→`   | `this.setState(…)` |
 | `scu→`   | `shouldComponentUpdate(nextProps, nextState) {…}` |
