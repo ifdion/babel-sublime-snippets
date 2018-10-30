@@ -32,10 +32,10 @@ To set a key binding, go to "Preferences: Key Bindings - User" from the Command 
 | `rcc→`   | legacy component skeleton |
 | `cdm→`   | `componentDidMount() {…}` |
 | `cdup→`  | `componentDidUpdate(prevProps, prevState) {…}` |
-| `cwm→`   | `componentWillMount() {…}` |
-| `cwr→`   | `componentWillReceiveProps(nextProps) {…}` |
+| `cwm→`   | `UNSAFE_componentWillMount() {…}` |
+| `cwr→`   | `UNSAFE_componentWillReceiveProps(nextProps) {…}` |
 | `cwun→`  | `componentWillUnmount() {…}` |
-| `cwup→`  | `componentWillUpdate(nextProps, nextState) {…}` |
+| `cwup→`  | `UNSAFE_componentWillUpdate(nextProps, nextState) {…}` |
 | `fdn→`   | `React.findDOMNode(…)` |
 | `gdp→`   | `getDefaultProps() {…}` |
 | `gis→`   | `getInitialState() {…}` |
